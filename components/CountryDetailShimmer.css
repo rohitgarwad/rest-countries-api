@@ -1,0 +1,39 @@
+.country-flag.shimmer-flag, .country-details-container.shimmer-content {
+    height: 350px;
+    background-color: var(--element-color);
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.shimmer-content p:first-child {
+    height: 15%;
+    width: 50%;
+}
+
+.shimmer-content p, .shimmer-content div {
+    height: 7%;
+    width: 90%;
+    margin-block: 0.5rem;
+    margin-inline: 1rem;
+    border-radius: 8px;
+    background-color: var(--background-color);
+}
+
+.shimmer-content p:last-of-type {
+    width: 50%;
+}
+
+.shimmer-content .shimmer-border-container {
+    height: 20%;
+    padding: 0.5rem;
+}
+
+.shimmer-border-container div {
+    margin-inline: 0.5rem;
+    margin-block: 0;
+    display: inline-block;
+    height: 40%;
+    width: 20%;
+    background-color: var(--element-color)
+}

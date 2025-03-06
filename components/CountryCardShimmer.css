@@ -1,0 +1,21 @@
+.shimmer-card {
+    height: 335px;
+}
+
+.image-container {
+    height: 40%;
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: var(--background-color)
+}
+
+.shimmer-card p {
+    height: 7%;
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: var(--background-color)
+}
+
+.shimmer-card p:last-child {
+    width: 60%;
+}
